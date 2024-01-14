@@ -1,7 +1,7 @@
 import React from 'react'
 import ListItems from './ListItems'
 
-const Content = ({items,handleCheck,handleDelete,color,setColor}) => {
+const Content = ({items,handleCheck,handleDelete}) => {
     return (
     <>
       { (items.length) ? (
